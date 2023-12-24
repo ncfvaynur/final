@@ -1,0 +1,307 @@
+.mySwiper {
+  height: 900px;
+  background: #000;
+}
+.slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+.slider-1 {
+  background-image: url(http://crems.like-themes.com/wp-content/uploads/2019/06/slider-overlay-01.jpg);
+}
+.slider-2 {
+  background-image: url(http://crems.like-themes.com/wp-content/uploads/2019/06/slider-overlay-02.jpg);
+}
+.slider-3 {
+  background-image: url(http://crems.like-themes.com/wp-content/uploads/2019/06/slider-overlay-03.jpg);
+}
+.swiper-button-prev {
+  opacity: 1 !important;
+  transform: translate(25px, 0px);
+  top: 50%;
+  left: 0px;
+  margin-top: 0px;
+  cursor: pointer;
+}
+.swiper-button-prev::after {
+  color: #fff;
+  font-size: 30px;
+  transition: 0.5s ease;
+}
+.swiper-button-next::after {
+  color: #fff;
+  font-size: 30px;
+  transition: 0.5s ease;
+}
+.swiper-button-next {
+  opacity: 1;
+  transform: translate(-60px, -4px);
+  top: 50%;
+  left: 100%;
+  margin-top: 0px;
+}
+.swiper-button-next:hover::after {
+  color: #c19f5f;
+}
+.swiper-button-prev:hover:after {
+  color: #c19f5f;
+}
+.slider p {
+  z-index: 10;
+  height: auto;
+  color: rgba(255, 255, 255, 0.5);
+  width: 80%;
+  text-align: center;
+  line-height: 26px;
+  font-size: 14px;
+  transform-origin: 50% 50%;
+  opacity: 1;
+}
+.slider .title {
+  z-index: 12;
+  font-family: Cormorant;
+  height: auto;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  white-space: normal;
+  text-align: center;
+  letter-spacing: 0px;
+  font-weight: 300;
+  font-size: 33px;
+  transform-origin: 50% 50%;
+  opacity: 1;
+  animation: coolTextAnimation 3s;
+}
+.slider .title span {
+  display: block;
+  z-index: 11;
+  font-family: Cormorant;
+  color: rgb(193, 159, 95);
+  text-align: center;
+  letter-spacing: 0px;
+  font-weight: 300;
+  font-size: 33px;
+  transform-origin: 50% 50%;
+}
+
+
+/* about section */
+.about-section{
+  background-image: url(../../../public/assets/Images/section-about-bg.png);
+    background-position: 50% 70%;
+    background-repeat: no-repeat;
+    background-size: 35%;
+    font-family: 'Cormorant', sans-serif;
+    position: relative;
+    background-color: #0f0e0f;
+    padding-bottom: 40px;
+}
+.about-section .img{
+  z-index: 1111;
+  position: absolute;
+
+}
+.about-section .img-top{
+  top: -12px;
+}
+.about-section .bottom-img{
+  bottom: -13px;
+}
+.about-section h3{
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+}
+.about-section h3 span{
+  color: #c19f5f;
+}
+.about-section p{
+  color: hsla(0,0%,100%,.502);
+  font-size: 18px;
+
+}
+.about-section p.text{
+  text-align: center;
+}
+.about-section h5{
+  cursor: pointer;
+  justify-content: center;
+}
+.about-section h5 i{
+  color: #c19f5f;
+  font-size: 25px;
+}
+.about-section h5 span{
+  color: #fff;
+  transition: .5s ease;
+}
+.about-section h5:hover span{
+  color: #c19f5f;
+}
+.aboutBtn{
+  outline: none !important;
+  border: none !important;
+  min-width: 0;
+  padding-left: 0;
+
+}
+.about-section ul{
+  width: 310px;
+}
+.about-section ul li{
+  margin-bottom: 40px;
+}
+.about-section ul li .icon i{
+  color: #c19f5f;
+  font-size: 40px;
+}
+.about-section ul li .text h5{
+  color: #fff;
+}
+
+
+/* chef section */
+.chef{
+  background-color: #2e2728;
+  overflow: hidden;
+  position: relative;
+  height: 600px;
+}
+.chef .img{
+  position: relative;
+}
+.chef .image{
+    display: none;
+    position: absolute;
+}
+.chef .text{
+  font-family: Cormorant,serif;
+  left: 5%;
+  position: absolute;
+  top: 20%;
+  width: 90%;
+  z-index: 11;
+}
+.chef .text p{
+  color: #c19f5f;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.chef .text h1{
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+    /* font-size: 45px; */
+}
+.chef .text h5{
+  color: #fff;
+  font-size: 25px;
+  margin-top: 50px;
+}
+.chef .text h6{
+  color: #c19f5f;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+
+
+/* store section */
+.store{
+  background-color: #0f0e0f;
+  position: relative;
+  font-family: Cormorant,serif;
+}
+.store .text p{
+    color: #c19f5f;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.store .text h1{
+    color: #fff;
+    font-size: 45px;
+}
+
+@media (min-width: 576px) {
+  .slider .title,
+  .slider .title span {
+    font-size: 44px;
+  }
+  .slider p {
+   width: 400px;
+    font-size: 14px;
+    
+  }
+  .about-section ul{
+    width: 380px;
+  }
+  .chef .text{
+    width: 60%;
+    left: 21%;
+  }
+  .store .text h1{
+    font-size: 55px;
+}
+}
+
+@media (min-width: 768px) {
+  .swiper-button-prev {
+   transform: translate(100px, -40px);
+  }
+  .swiper-button-next {
+   transform: translate(-160px, -40px);
+  }
+  .about-section h3{
+    text-align: start;
+    font-size: 34px;
+  }
+  .about-section p.text{
+    text-align: start;
+  }
+  .about-section h5{
+    align-items: flex-start !important;
+    justify-content: flex-start;
+  }
+  .aboutBtn{
+    text-align: start;
+  }
+  .chef .text h1{
+    font-size: 28px;
+  }
+} 
+
+@media (min-width: 992px) {
+   .slider .title, .slider .title span {
+      font-size: 80px;
+   }
+   .slider p{
+      font-size: 16px;
+      width: 624px;
+
+   }
+   .chef{
+    height: auto;
+   }
+
+ } 
+
+ @media (min-width: 1200px) {
+   .chef .image{
+    display: block;
+    top: 0;
+    left: 25%;
+    
+   }
+   .chef .text h1{
+    font-size: 43px;
+  }
+ }

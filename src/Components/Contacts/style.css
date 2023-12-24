@@ -1,0 +1,21 @@
+.contact-text {
+    border-left: 1px dotted hsla(0,0%,100%,.502);
+}
+.contact-text  .icon i{
+    color: #c19f5f;
+    font-size: 30px;
+    transition: .5s ease;
+}
+.contact-text  h3{
+    color: #fff;
+    font-family: Cormorant,serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.contact-text  p{
+    color: hsla(0,0%,100%,.502);
+    font-size: 18px;
+}
+.contact-text:hover i{
+    transform: translateY(-10px);
+}

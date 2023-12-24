@@ -1,0 +1,14 @@
+.notFoundMain{
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),  url(	http://crems.like-themes.com/wp-content/uploads/2019/06/inner_HEADER_02.jpg);
+}
+.content{
+    background-color: #0f0e0f;
+}
+.content img{
+    max-width: 300px;
+}
+.content h4{
+    font-size: 48px !important;
+    margin: 0 0 24px;
+    color: #c19f5f !important;
+}

@@ -1,0 +1,96 @@
+.cartMain {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url(http://crems.like-themes.com/wp-content/uploads/2019/06/inner_HEADER_02.jpg);
+}
+.cartSection {
+  padding-bottom: 100px;
+  background-color: #0f0e0f;
+}
+.empty-cart {
+  display: flex;
+  align-content: center;
+  background-color: #2d2627;
+  color: #fff;
+  padding: 18px;
+  font-size: 20px;
+  border-top: 3px solid #c19f5f;
+}
+.table {
+  background-color: #0f0e0f;
+  color: #c19f5f;
+  font-family: Cormorant, serif;
+}
+.table > :not(caption) > * > * {
+  background-color: #0f0e0f !important ;
+  border-color: #c19f5f;
+  color: #c19f5f !important;
+  font-size: 18px;
+}
+.table td button {
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+.fa-trash {
+  color: red;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.total-price{
+  color: #c19f5f;
+}
+.buyBtn{
+  background-color: transparent;
+  padding: 10px 40px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #c19f5f;
+  color: #c19f5f;
+  text-transform: uppercase;
+}
+
+@media (max-width: 769px) {
+  .table tbody tr {
+    border: 1px solid;
+    margin-top: 50px;
+    display: block;
+  }
+  .table tbody tr td {
+    display: block;
+    border: none;
+    border-bottom: 1px solid #c19f5f;
+    font-size: 12px;
+    padding-left: 50%;
+    position: relative;
+  }
+  .table td:before{
+    left: 6px;
+    padding-right: 10px;
+    position: absolute;
+    top: 6px;
+    white-space: nowrap;
+    width: 45%;
+    font-weight: 700;
+  }
+  .table td.id::before{
+    content: "#";
+  }
+  .table td.img::before{
+    content: "Photo";
+  }
+  .table td.title::before{
+    content: "Title";
+  }
+  .table td.price::before{
+    content: "Price";
+  }
+  .table td.qty::before{
+    content: "Quantity";
+  }
+  .table td.delete::before{
+    content: "Delete";
+  }
+  .table td.delete{
+    border: none;
+  }
+}

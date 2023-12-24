@@ -1,0 +1,71 @@
+.video{
+    background-color: #0f0e0f;
+    min-height: 600px;
+}
+.video .container{
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../../../public/assets/Images/video-bg.jpg);
+    background-attachment: fixed;
+    background-position: 50% 21px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Cormorant,serif;
+    min-height: 400px;
+    position: relative;
+}
+.video .container .box h2{
+    color: #fff;
+    font-size: 43px;
+    font-family: 'Cormorant',sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+.box .video-btn{
+    background-color: transparent;
+    border: 1px solid #c19f5f;
+    border-radius: 50%;
+    padding: 36px 38px;
+    transition: .5s ease;
+}
+.box .video-btn i{
+    color: #c19f5f;
+    font-size: 20px;
+    transition: .5s ease;
+}
+.video-btn:hover{
+    border-color: #fff;
+}
+.video-btn:hover i{
+    color: #fff;
+}
+
+.modal-body{
+    background-color: rgb(15, 14, 15);
+}
+.btn-close{
+    color: #c19f5f !important;
+    font-size: 25px;
+    background: 0 0;
+    outline: none;
+    box-shadow: none !important;
+    opacity: 1;
+    position: absolute;
+    top: -14px;
+    right: 10px;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+@media (min-width: 576px) {
+    .video .container .box h2{
+        font-size: 48px;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    .video .container .box h2{
+           font-size: 80px;
+    }
+
+    
+}

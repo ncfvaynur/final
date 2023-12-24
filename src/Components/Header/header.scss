@@ -1,0 +1,98 @@
+@import "../../Scss/variable.scss";
+
+header {
+  transition: all 0.5s ease;
+  background-color: black;
+  .container {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    .logo {
+      a {
+        cursor: pointer;
+        display: inline-block;
+        height: 100%;
+        position: relative;
+        z-index: 9999;
+      }
+    }
+    nav {
+      ul {
+        li {
+          padding: 10px 5px;
+
+          a {
+            padding: 0 22px 0;
+            span {
+              color: white;
+            }
+            &.active {
+                span {
+                  color: #c19f5f;
+                }
+              }
+          }
+
+          &.menu-item-has-children {
+            a {
+              &::after {
+                font-weight: 900;
+                content: "+";
+                font-size: 12px;
+                line-height: 8px;
+                margin: -4px 0 0 6px;
+                color: #c19f5f;
+              }
+            }
+          }
+
+          &:hover{
+            .sub-menu{
+                opacity: 1;
+                transform: translateY(0%);
+                z-index: 10;
+            }
+          }
+
+          .sub-menu {
+            width: 250px;
+            margin: 15px 0 0;
+            padding: 8px 0 8px;
+            margin-left: -75px;
+            display: block;
+            opacity: 1;
+            position: absolute;
+            transform: translateY(100%);
+            transition: all 0.5s linear;
+            z-index: -99;
+            list-style: none;
+            box-shadow: 0 0px 3px rgba(0, 0, 0, 0.15);
+            background-color: #fff;
+            li{
+                a {
+                    &:hover{
+                        background-color: #c19f5f;
+                    }
+                    padding: 8px 18px;
+                    margin: 0 10px;
+                    display: block;
+                    position: relative;
+                    transition: color 0.2s ease, background 0.2s ease;
+                    &::after {
+                      content: "";
+                    }
+                    span {
+                      color: #0f0e0f;
+                    }
+                  }
+
+            }
+           
+          }
+
+
+        }
+      }
+    }
+  }
+}

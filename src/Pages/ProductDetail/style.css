@@ -1,0 +1,78 @@
+.detailsMain{
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.5)), url(http://crems.like-themes.com/wp-content/uploads/2019/06/inner_HEADER.jpg);
+}
+.productDetail{
+    background-color: #0f0e0f;
+    padding-bottom: 100px;
+}
+.productDetail .image{
+    cursor: pointer;
+    max-width: 350px;
+}
+.productDetail .price{
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #c19f5f;
+    font-size: 30px;
+}
+.productDetail .shortDesc{
+    margin: 15px 0 25px;
+    font-size: 16px;
+    color: #ffffff99;
+}
+.addToCartBtn{
+    min-width: 200px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: transparent;
+    border: 1px solid #c19f5f;
+    color: #c19f5f;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 40px;
+    transition: .5s ease-in-out;
+}
+.addToCartBtn:hover{
+    color: #fff;
+    border-color: #fff;
+}
+.getToCart{
+    display: inline-block;
+    text-align: center;
+    min-width: 200px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: #c19f5f;
+    border: 1px solid #c19f5f;
+    color:#0f0e0f;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 40px;
+    transition: .5s ease-in-out;
+}
+.getToCart:hover{
+    background-color: #fff;
+    color: #c19f5f;
+}
+.product-categories p{
+    color: #fff;
+    font-size: 18px;
+}
+.product-categories p span{
+    color: #c19f5f;
+    font-weight: 600;
+}
+.desc h2{
+    color: #fff;
+    border-bottom:2px solid #c19f5f ;
+    font-family: 'Cormorant';
+    transition: .5s ease;
+    cursor: pointer;
+}
+.desc h2:hover{
+    color: #c19f5f;
+}
+.desc p{
+    color: #ffffff99;
+    font-size: 17px;
+}

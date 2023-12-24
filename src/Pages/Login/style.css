@@ -1,0 +1,22 @@
+.bg{
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.5)), url(../../../public//assets/Images/parallax_02.jpg);
+}
+.form-section{
+    padding: 100px 0;
+    background-color: #0f0e0f;
+}
+.login-box{
+    background: rgba(0,0,0,.5);
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    box-sizing: border-box;
+    font-family: Cormorant,serif;
+    width: 400px;
+}
+.login-box h2{
+    color: #fff;
+    margin-bottom: 7px;
+}
+.login-box form input{
+    padding: 18px 25px 18px 40px;
+}

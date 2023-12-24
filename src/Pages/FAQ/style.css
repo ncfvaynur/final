@@ -1,0 +1,79 @@
+.faqMain{
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(http://crems.like-themes.com/wp-content/uploads/2019/06/inner_HEADER_06.jpg);
+}
+.content{
+    background-color: #0f0e0f;
+    padding: 100px 0;
+    font-family: 'Cormorant',serif;
+}
+.content .header h5{
+    margin: 0 0 24px;
+    color: #c19f5f;
+    font-size: 30px;
+}
+.content p{
+    margin-bottom: 30px;
+    color: rgba(255,255,255,.75);
+    font-size: 18px;
+}
+ul.disc{
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+ul.disc li{
+    margin-bottom: 14px;
+    text-align: left;
+    position: relative;
+    font-family: 'Mulish',sans-serif;
+    color: rgba(255,255,255,.75);
+}
+ul.disc li::before{
+    color: #c19f5f;
+    display: inline-block;
+    font-style: normal;
+    text-rendering: auto;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "•";
+    font-size: 20px;
+    font-variant: normal;
+    margin: 0px 8px 0px -18px;
+}
+
+.accordion > div{
+    margin-bottom: 15px;
+    border-radius: 0px !important;
+    height: auto !important;
+}
+
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root:hover:not(.Mui-disabled){
+    background-color: #c19f5f;
+}
+.accordion .MuiAccordionSummary-root {
+    background-color: #2d2627;
+    font-family: 'Cormorant',serif;
+    font-weight: 300;
+    transition: all .2s ease;
+    font-size: 20px;
+    padding: 0px 25px;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+.accordion p{
+    margin-bottom: 0;
+    color: rgba(255,255,255,.75);
+    font-size: 20px;
+    font-family: 'Cormorant',serif;
+}
+
+.accordion .MuiAccordionSummary-expandIconWrapper span{
+    color: aliceblue;
+}
+.accordion .MuiAccordion-region{
+    background-color: #0f0e0f;
+    padding: 15px 20px;
+}

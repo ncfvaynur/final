@@ -1,0 +1,94 @@
+.detailMain{
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.5)), url(../../../public//assets//Images//inner_HEADER_03.jpg);
+}
+.main-section{
+    padding: 100px 0;
+    background-color: #0f0e0f;
+}
+.chef-name{
+    font-size: 28px;
+}
+.specialty{
+    letter-spacing: 2px;
+}
+.chef-name, .specialty{
+    color: #c19f5f;
+    font-weight: 300;
+}
+p.chef-about{
+    margin-top: 20px;
+    color: rgba(255,255,255,.75);
+    font-size: 18px;
+}
+
+.lh-2{
+    color:  rgba(255,255,255,.75);
+    font-size: 18px;
+}
+ .contact i{
+    color: #c19f5f;
+    font-size: 28px;
+    margin-right: 10px;
+ }
+ .contact a{
+    color: #ffff;
+    font-size: 18px;
+    transition: .5s ease;
+ }
+ .contact a:hover {
+    color: #c19f5f;
+ }
+
+ .sosial-media-contact li{
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-right: 8px;
+    margin-top: 10px;
+    min-width: 42px;
+    min-height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c19f5f;
+    transition: .5s ease;
+ }
+ .sosial-media-contact li i{
+    font-size: 18px;
+    color: #0f0e0f;
+   
+ }
+ .sosial-media-contact li:hover{
+    background-color: #fff;
+ }
+ .header{
+    color: #fff;
+ }
+ form{
+    width: 100%;
+ }
+ form input{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 26px 25px 26px 40px;
+    border-radius: 48px;
+    font-family: 'Mulish',sans-serif;
+    transition: all .2s ease;
+    background-color: transparent;
+    outline: 0 none;
+    margin-bottom: 20px;
+    color: #c19f5f;
+    border: 1px solid rgba(255,255,255,.2);
+ }
+ form button{
+    max-width: 160px !important;
+    max-width: 200px;
+ }
+
+ @media (min-width: 768px) {
+    .contact a{
+        font-size: 25px;
+     }
+    
+ }

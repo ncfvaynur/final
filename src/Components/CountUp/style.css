@@ -1,0 +1,17 @@
+.countUp{
+    background-color: #0f0e0f;
+    font-family: Cormorant,serif;
+    /* height: 340px; */
+}
+.countUp-item .header{
+    line-height: 1em;
+    position: relative;
+    margin-bottom: 12px;
+    color: #c19f5f;
+    font-size: 100px;
+}
+.countUp-item .subheader{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+}

@@ -1,0 +1,17 @@
+.main{
+    color: #fff;
+    min-height: 500px;
+    font-family: Cormorant,serif;
+}
+.main h1{
+    color: #fff;
+    font-size: 50px;
+}
+.main p a{
+    transition: .5s ease;
+    color: #c19f5f;
+}
+.main p a:hover{
+
+    color: #fff;
+}
